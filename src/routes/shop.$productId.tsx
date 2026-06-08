@@ -83,7 +83,7 @@ function ProductPage() {
               <span className="text-[11px] text-concrete">{color.name}</span>
             </div>
             <div className="flex gap-2">
-              {product.colors.map((c) => (
+              {product.colors.map((c: { name: string; hex: string }) => (
                 <button
                   key={c.name}
                   onClick={() => setColor(c)}
