@@ -61,7 +61,7 @@ This ecommerce platform is a contemporary web application designed for high perf
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/brisenwhyte/Ecommerce-Site.git
+   git clone https://github.com/brisenwhyte/NorthBound.git
    cd Ecommerce-Site
    ```
 
