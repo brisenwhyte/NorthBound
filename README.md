@@ -47,15 +47,15 @@ This ecommerce platform is a contemporary web application designed for high perf
 ├── .prettierignore         # Prettier ignore patterns
 ├── .gitignore             # Git ignore patterns
 ├── bunfig.toml            # Bun runtime configuration
-└── bun.lock               # Dependency lock file
+└── package-lock.json      # npm dependency lock file
 ```
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- **Node.js** 18+ (or Bun for faster package management)
-- **Bun** (optional, for faster builds and package management)
+- **Node.js** 18+
+- **Bun** (optional)
 
 ### Installation
 
@@ -72,7 +72,7 @@ This ecommerce platform is a contemporary web application designed for high perf
    npm install
    ```
 
-   Or using Bun (recommended):
+   Or using Bun:
    ```bash
    bun install
    ```
