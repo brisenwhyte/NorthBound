@@ -26,7 +26,7 @@ export function Navbar() {
         scrolled || open ? "bg-ink text-bone" : "bg-transparent text-bone"
       }`}
     >
-      <div className="mx-auto max-w-[1600px] px-5 lg:px-10 h-16 flex items-center justify-between">
+      <div className="relative mx-auto max-w-[1600px] px-5 lg:px-10 h-16 flex items-center justify-between">
         <button
           aria-label="Menu"
           className="lg:hidden -ml-2 p-2"
@@ -43,8 +43,16 @@ export function Navbar() {
           ))}
         </nav>
 
-        <Link to="/" className="flex items-center gap-2" aria-label="NorthBound home">
-          <img src={logo} alt="NorthBound" className="h-5 w-auto invert" />
+        <Link
+          to="/"
+          className="absolute left-1/2 top-1/2 h-11 w-44 -translate-x-1/2 -translate-y-1/2 overflow-hidden sm:h-12 sm:w-56 lg:h-14 lg:w-64"
+          aria-label="NorthBound home"
+        >
+          <img
+            src={logo}
+            alt="NorthBound"
+            className="absolute left-1/2 top-1/2 h-24 w-auto max-w-none -translate-x-1/2 -translate-y-1/2 invert mix-blend-screen sm:h-28 lg:h-32"
+          />
         </Link>
 
         <div className="flex items-center gap-1">
